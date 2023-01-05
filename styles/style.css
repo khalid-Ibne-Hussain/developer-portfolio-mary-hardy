@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px 0px 150px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 51px;
+}
+
+.orange-txt {
+    color: #FD6E0A;
+}
+
+.orange-btn {
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 36px;
+
+}
+
+.contact-btn {
+    color: #FD6E0A;
+    background: #FFFFFF;
+    border: 1px solid #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 18px 36px;
+    margin-left: 30px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+/* Banner CSS */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 185px 0 185px 150px; */
+}
+
+.banner-txt {
+    padding: 185px 0 185px 150px;
+    /* margin-right: 185px 163px 0 226px; */
+    /* width: 585px;
+    height: 356px; */
+}
+
+.banner-subtitle {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner-desc {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin: 20px 0 30px 0;
+
+}
+
+.banner img {
+    width: 584px;
+    height: 676px;
+    margin: 47px 38px 0 0;
+}
+
+/* main css */
+section {
+    /* margin-top: 130px; */
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    width: 1140px;
+    height: 550px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    padding: 131px 0 30px 0;
+}
+
+.about-desc {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 157px 30px 156px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* width: 782px;
+    height: 60px; */
+    padding: 0 179px 131px 179px;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+
+.info-desc {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* what i do */
+.what-desc {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.skill-name {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width: 267px;
+    height: 377px;
+}
+
+.skill-name img {
+    margin: 30px 0 30px 30px;
+}
+
+.skill-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 33px;
+}
+
+.skill-desc {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 33px 30px 33px;
+}
+
+/* summary resume */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.degree-title {
+    font-weight: 550;
+    font-size: 25px;
+    color: #474747;
+    padding: 30px 0 10px 0;
+}
+
+.degree-sub-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+.degree-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+.edu-exp h4 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #474747;
+
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.resume-content {
+    margin-top: 113px;
+}
+
+/* contact */
+.contact-itm {
+    display: flex;
+    gap: 117px;
+    /* padding-bottom: 130px; */
+    padding: 0 380px 130px 380px;
+    /* max-width: 1140; */
+    margin-top: 130px;
+
+}
+
+.contact {
+    background: #FFF8F3;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+/* .contact-message a {
+    padding-right: 24px;
+} */
